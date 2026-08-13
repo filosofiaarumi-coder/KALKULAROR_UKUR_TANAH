@@ -8,10 +8,21 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="description" content="Aplikasi Kalkulator Luas Tanah Tidak Beraturan Presisi - Metode Koordinat, Diagonal & Triangulasi" />
     
-    <!-- Link manifest yang sudah disesuaikan -->
+    <!-- Link manifest -->
     <link rel="manifest" href="/KALKULAROR_UKUR_TANAH/manifest.json" />
     
     <title>TakarTanah - Kalkulator Luas Tanah Presisi</title>
+
+    <!-- Pendaftaran Service Worker untuk PWABuilder -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/KALKULAROR_UKUR_TANAH/sw.js')
+            .then(reg => console.log('Service Worker registered:', reg))
+            .catch(err => console.error('Service Worker registration failed:', err));
+        });
+      }
+    </script>
   </head>
   <body class="bg-slate-100 text-slate-800 antialiased select-none">
     <div id="root"></div>
