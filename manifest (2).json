@@ -1,0 +1,13 @@
+{
+  "background_color": "#ffffff",
+  "description": "Kalkulator Luas Tanah Presisi",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "TakarTanah",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "TakarTanah",
+  "start_url": "/",
+  "theme_color": "#0f172a",
+  "id": "/KALKULAROR_UKUR_TANAH/"
+}
