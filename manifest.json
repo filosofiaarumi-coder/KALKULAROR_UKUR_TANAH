@@ -1,21 +1,13 @@
 {
-  "name": "Kalkulator Luas Tanah",
-  "short_name": "TakarTanah",
-  "start_url": "/KALKULAROR_UKUR_TANAH/",
+  "background_color": "#ffffff",
+  "description": "Aplikasi Kalkulator Luas Tanah Tidak Beraturan Presisi - Metode Koordinat, Diagonal &amp;amp; Triangulasi",
+  "dir": "ltr",
   "display": "standalone",
-  "background_color": "#0f172a",
+  "name": "Kalkulator Luas Tanah",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Kalkulator Luas Tanah",
+  "start_url": "/",
   "theme_color": "#0f172a",
-  "description": "Aplikasi Kalkulator Luas Tanah Tidak Beraturan Presisi",
-  "icons": [
-    {
-      "src": "https://via.placeholder.com/512",
-      "sizes": "512x512",
-      "type": "image/png"
-    }
-  ],
-  "serviceworker": {
-    "src": "/KALKULAROR_UKUR_TANAH/sw.js",
-    "scope": "/KALKULAROR_UKUR_TANAH/",
-    "type": "classic"
-  }
+  "id": "/kalkulator-tanah"
 }
